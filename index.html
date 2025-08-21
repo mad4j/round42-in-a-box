@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>js-dos digger 8.xx</title>
+    <title>Round42</title>
 
     <style>
-        html, body {
+        html,
+        body {
             height: 100%;
         }
 
@@ -21,6 +23,7 @@
     <!-- js-dos -->
     <script src="./js-dos.js"></script>
 </head>
+
 <body>
 
     <div id="dos" style="width: 100%; height: 100%"></div>
@@ -31,11 +34,15 @@
             pathPrefix: "./emulators/",
             theme: "dark",
             kiosk: false,
-            noCloud: true,
             autoStart: true,
+            countDownStart: 3,
             softFullscreen: false,
             fullScreen: false,
+            noCursor: true,
+            noCloud: true,
+            noNetworking: true,
         });
     </script>
 </body>
+
 </html>
